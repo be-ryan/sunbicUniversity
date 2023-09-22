@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+header{
+    position: sticky; 
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+header img{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: goldenrod;
+}
+
+/* content */
+.content{
+    padding: 4% 0 8%;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.mainContent{
+    position: relative;
+    padding: 0 2%;
+    margin: 0 10%;
+}
+
+.mainContent h1{
+    font-size: 26px;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+
+.mainContent p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.mainContent h2{
+    font-size: 24px;
+    padding-left: 5%;
+    margin-bottom: 10px;
+}
+
+.formContainer{
+    padding-left: 5%;
+}
+
+.form{
+    padding: 20px;
+    background-color: #fefefe;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.form label{
+    font-weight: 500;   
+}
+
+.form input, select{
+    border: solid 1px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #adadad;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio{
+    margin-bottom: 15px;
+}
+
+.radio input{
+    width: auto;
+    margin-right: 3px;
+}
+
+textarea{
+    border: solid 1px;
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #adadad;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 7px 21px;
+    font-weight: 700;
+    background-color: #adadad;
+    color: #f6f6f6;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color: #424043;
+    padding: 30px 15px;
+    position: relative;
+    text-align: left;
+}
+
+.container{
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 80%;
+    color: goldenrod;
+}
+
+.col p{
+    margin-bottom: 4px;
+}
+
+.follow{
+    width: 20%;
+    color: goldenrod;
+}
+
+.follow ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.follow ul li{
+    margin-right: 10px;
+}
+
+.follow img{
+    width: 30px;
+}
+
+.copyr{
+    margin-top: 8px;
+    text-align: center;
+    color: darkgoldenrod;
+}
